@@ -1,0 +1,31 @@
+{
+  "name": "spikecheck",
+  "version": "1.0.0",
+  "description": "Analyze meal pictures and biometric inputs to predict glucose spikes, crash timelines, and receive premium food-ordering health hacks to sustain focus and curb sugar cravings.",
+  "main": "app/src/main/java/com/example/MainActivity.kt",
+  "scripts": {
+    "build": "gradle assembleDebug",
+    "clean": "gradle clean",
+    "test": "gradle :app:testDebugUnitTest",
+    "lint": "gradle lint"
+  },
+  "author": "monishraam86@gmail.com",
+  "license": "Private",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monishraam86/spikecheck.git"
+  },
+  "keywords": [
+    "android",
+    "kotlin",
+    "jetpack-compose",
+    "spikecheck",
+    "glucose-tracker",
+    "gemini-api"
+  ]
+}
