@@ -19,6 +19,11 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: Fix Directory Structure
+      run: |
+        mkdir -p app
+        find . -maxdepth 1 -not -name '.' -not -name 'app' -not -name '.github' -not -name '.git' -exec mv {} app/ \; || true
+
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
 
